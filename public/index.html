@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Mobile Web Specialist Practice Project">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Shehu Yakubu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Smash It - Whether App</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="manifest" href="../manifest.json" />
+    </head>
+    <body>
+
+        <section class="wrap-container">
+            <div class="container">
+                <h1 class="heading">Smash It Weather App</h1>
+                <form>
+                    <input type="text" placeholder="Search for a city" autofocus>
+                    <button type="submit">SUBMIT</button>
+                    <span class="msg"></span>
+                </form>
+            </div>
+        </section>
+
+        <section class="cities-section">
+            <div class="container">
+                <ul class="cities"></ul>
+            </div>
+        </section>
+
+        <footer class="page-footer">
+            <div class="container">
+                <small>Andela, Pluralsight, Google.</small>
+            </div>
+        </footer>
+
+        <script src="./js/main.js"></script>
+        <script src="../serviceWorker.js"></script>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="/__/firebase/7.19.1/firebase-app.js"></script>
+
+        <script src="/__/firebase/7.19.1/firebase-firestore.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="/__/firebase/7.19.1/firebase-analytics.js"></script>
+
+        <!-- Initialize Firebase -->
+        <script src="/__/firebase/init.js"></script>
+    </body>
+</html>

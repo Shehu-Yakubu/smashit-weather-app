@@ -1,0 +1,21 @@
+{
+    "name": "SmashIt: Weather Forecast",
+    "short_name": "SmashIt",
+    "description": "Event weather forecast information",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "/images/weather-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/weather-512x512.png",
+            "type": "image/png",
+            "size": "512x512"
+        }
+    ],
+    "display": "standalone",
+    "scope": "/",
+    "background_color": "#033b57b9"
+}
